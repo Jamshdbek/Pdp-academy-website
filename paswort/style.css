@@ -1,0 +1,99 @@
+body{
+    box-sizing: border-box;
+}
+
+
+.foto img{
+   
+    left: 0;
+    
+   float: left;
+    width: 500px;
+    margin-left: 60vh;
+    margin-top: -400px;
+    position: relative;
+   
+
+}
+.fon{
+    border: solid 1px #ddd;
+    padding:  10vh;
+    margin:10vh;
+    position: relative;
+
+}
+.enter{
+   padding: 10px;
+ position: absolute;
+
+
+}
+.number{
+    width: 100px;
+    font-size: large;
+   
+    
+}
+.password{
+    width: 200px;
+    font-size: large;
+
+}
+.grant{
+    background-color: #04AA6D;
+    cursor: pointer;
+    color: white;
+    width: 150px;
+    height: 40px;
+    margin-left: 5vh;
+    border:none;
+    border-radius: 5%;
+    text-decoration: none;
+    
+    
+
+    
+}
+.trant:hover{
+    background-color: #24af2b;
+    text-decoration: none;
+}
+.trant a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+input{
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none;
+  border-bottom: solid 1px #ddd;
+}
+.foto img{
+    float: right;
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+.contener-masengr a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#fecabook{
+    border: solid 1px 1px  1px black;
+    background-color: blue;
+}

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header{
+    justify-content: baseline;
+    display: flex;
+
+}
+
+
+
+.nav{
+    width: 80px;
+    height: 20px ;
+    border: solid 10px blueviolet;
+
+
+}
+/* logo */
+.nav img{
+    float: left;
+
+}
+/* links header */
+.links{
+    gap: 20px;
+    text-decoration: none;
+    color: black;
+}
